@@ -5,4 +5,28 @@
 }
 #icon{
     color: #4285f4;
+    display: inline-block;
+}
+.assignment_1{
+    display: inline-block;
+    color: #2b79f7;
+    margin-left: 30px;
+}
+.teacher_name{
+    font-size: 14px;
+    font-family: Roboto,Arial,sans-serif;
+    color: #5f6368;
+    margin: 3px auto 0 65px;
+}
+.hr_line{
+    color: #4285f4;
+    opacity: 0.8;
+}
+.details-card{
+    width: 60%;
+    display: inline-block;
+}
+.submit-card{
+    display: inline-block;
+    width: auto;
 }
