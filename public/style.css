@@ -1,7 +1,7 @@
 .card{
     border-color: 10px red;
-    margin-top: 50px;
-    padding: 50px;
+    margin-top: 20px;
+    padding: 30px;
 }
 #icon{
     color: #4285f4;
@@ -22,6 +22,10 @@
     color: #4285f4;
     opacity: 0.8;
 }
+#assignment-work{
+    width: 500px;
+    margin-bottom: 25px;
+}
 .details-card{
     width: 60%;
     display: inline-block;
@@ -29,4 +33,27 @@
 .submit-card{
     display: inline-block;
     width: auto;
+    vertical-align: top;
+    margin-left: 35px;
+    width: 36%;
+    height: auto;
+}
+#add-work-btn{
+    width: 100%;
+    margin-top: 10px;
+}
+#submit-btn{
+    width: 100%;
+    margin: 16px 0 10px 0;
+}
+.peopleicon{
+    color: gray;
+    display: inline-block;
+}
+.classcomment{
+    display: inline-block;
+    margin-left: 10px;
+}
+.accounticon{
+    color: blue;
 }
