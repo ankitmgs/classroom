@@ -10,7 +10,7 @@ const Assignment = () => {
     
     return (
         <div>
-            <Container>
+            <Container maxWidth="false">
             <div className='card'>
                 <div>
                     <AssignmentIcon fontSize='large' id="icon"/>
@@ -38,13 +38,16 @@ const Assignment = () => {
                             </Typography>
                         </CardContent>
                         <CardActions>
-                            <Button>Read More</Button>
+                            <Button id='read-more-btn'>Read More</Button>
                         </CardActions>
                     </Card>
                     <Card className="submit-card">
                         <CardContent>
                             <Typography variant='h5'>Your Work</Typography>
-                                <Button variant="outlined" component="span" id='add-work-btn'><input type="file" ></input></Button>
+                                <div class="mb-3">
+                                    <label for="formFileMultiple" class="form-label">Attach your work here!</label>
+                                    <input class="form-control" type="file" id="formFileMultiple" multiple />
+                                </div>
                                 <Button id="submit-btn" variant='contained'>Submit</Button>
                         </CardContent>
                     </Card>
@@ -61,7 +64,7 @@ const Assignment = () => {
                     {/* <AccountCircle className="accounticon" /> */}
                     <div class="input-group mb-3">
                         <input type="text" class="form-control" placeholder="Add Class Comment" aria-label="Recipient's username" aria-describedby="button-addon2" />
-                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Sent</button>
+                        <button class="btn btn-outline-secondary" type="button" id="sent-btn">Sent</button>
                     </div>
                 </div>
 

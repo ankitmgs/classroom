@@ -4,12 +4,12 @@
     padding: 30px;
 }
 #icon{
-    color: #4285f4;
+    color: #FF7F3F;
     display: inline-block;
 }
 .assignment_1{
     display: inline-block;
-    color: #2b79f7;
+    color: #FF7F3F;
     margin-left: 30px;
 }
 .teacher_name{
@@ -19,12 +19,17 @@
     margin: 3px auto 0 65px;
 }
 .hr_line{
-    color: #4285f4;
+    color: #F6D860;
     opacity: 0.8;
+}
+#read-more-btn{
+    color: #FF7F3F;
 }
 #assignment-work{
     width: 500px;
     margin-bottom: 25px;
+    color: #FF7F3F;
+    border-color: #FF7F3F;
 }
 .details-card{
     width: 60%;
@@ -39,12 +44,16 @@
     height: auto;
 }
 #add-work-btn{
-    width: 100%;
-    margin-top: 10px;
+    width: 80%;
+    margin: 10px auto 10px auto;
+    display: block;
+    border-color: #FF7F3F;
 }
 #submit-btn{
-    width: 100%;
-    margin: 16px 0 10px 0;
+    width: 70%;
+    margin: 16px auto 10px auto;
+    display: block;
+    background-color: #FF7F3F;
 }
 .peopleicon{
     color: gray;
@@ -56,4 +65,8 @@
 }
 .accounticon{
     color: blue;
+}
+#sent-btn{
+    background-color: #FF7F3F;
+    color: white;
 }
